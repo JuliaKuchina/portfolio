@@ -87,7 +87,7 @@ export function Contacts() {
       </StyledPillContainer>
       <StyledPillContainer
         download
-        href="./YuliaKuchinaFrontendEngineerResume.pdf"
+        href="./YuliaKuchinaSoftwareEngineerResume.pdf"
       >
         <StyledWhitePill>
           <StyledRainbowSpan>Download resume</StyledRainbowSpan>

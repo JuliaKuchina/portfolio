@@ -7,6 +7,7 @@ import {
   StyledH2,
   StyledParagraph,
   StyledRainbowSpan,
+  StyledSubHeader,
 } from "./helpers/style";
 
 const StyledContainer = styled.div`
@@ -20,13 +21,6 @@ const StyledContainer = styled.div`
     max-width: 100%;
     padding: 50px 24px;
   }
-`;
-
-const StyledSubHeader = styled.h2`
-  opacity: 0.5;
-  font-size: 18px;
-  margin: 0;
-  font-weight: normal;
 `;
 
 const StyledLink = styled.a`
@@ -67,7 +61,12 @@ export function Welcome() {
       <StyledContainer>
         <div>
           <StyledH2>YULIA KUCHINA</StyledH2>
-          <StyledSubHeader>Senior Front End Developer</StyledSubHeader>
+          <StyledSubHeader>Senior Frontend/Product Engineer</StyledSubHeader>
+          <StyledParagraph>
+            I build scalable design systems and high-performance user
+            experiences for products used by millions, with a focus on
+            interaction quality, restraint, and long-term maintainability.
+          </StyledParagraph>
           <StyledParagraph>
             Contact info is in my resume. <br />
             P.S. Yes, feel free to drag and move the bubbles around :)

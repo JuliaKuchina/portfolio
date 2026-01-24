@@ -11,7 +11,7 @@ export const TechChart = () => {
   const windowWidth = useWindowSize();
   const width = useMemo(
     () => (windowWidth < 600 ? windowWidth : 600),
-    [windowWidth]
+    [windowWidth],
   );
   const height = 500;
   const centre = { x: width / 2, y: height / 2 };
@@ -36,6 +36,11 @@ export const TechChart = () => {
     labels.current?.attr("x", (d: any) => d.x).attr("y", (d: any) => d.y);
   }
 
+  const getRandomGroup = () => {
+    const groups = [1, 3, 4, 7];
+    return groups[Math.floor(Math.random() * groups.length)];
+  };
+
   useEffect(() => {
     // data manipulation function takes raw data from csv and converts it into an array of node objects
     // each node will store data and visualisation values to draw a bubble
@@ -56,6 +61,7 @@ export const TechChart = () => {
         size: +d.size,
         x: Math.random() * 200,
         y: Math.random() * 200,
+        randomGroup: getRandomGroup(),
       }));
 
       return myNodes;
@@ -86,21 +92,24 @@ export const TechChart = () => {
           d.x = event.x;
           d.y = event.y;
           simulation.alpha(1).restart();
-        }) as any
+        }) as any,
       );
 
       bubbles.current = elements
         .append("circle")
         .classed("bubble", true)
         .attr("r", (d: any) => d.radius)
-        .style("fill", (d: any) => printGradient(d.group, 7) as any)
+        .style("fill", (d: any) => printGradient(d.randomGroup, 7) as any)
         .attr("opacity", 1) as any;
 
       labels.current = elements
         .append("text")
         .attr("dy", ".3em")
         .style("text-anchor", "middle")
-        .style("font-size", 14)
+        .style(
+          "font-size",
+          (d: any) => `${Math.max(10, Math.min(14, d.radius * 0.4))}px`,
+        )
         .style("font-weight", 600)
         .style("white-space", "pre-line")
         .style("fill", "#333")

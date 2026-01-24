@@ -21,6 +21,8 @@ const StyledText = styled.div`
 `;
 
 const COMPANIES: string[] = [
+  "CBA",
+  "Spatial services NSW",
   "Big W",
   "Rural Fire Service NSW",
   "Revenue NSW",
@@ -40,23 +42,24 @@ export function About() {
       <StyledText>
         <div>
           <StyledH2>ABOUT</StyledH2>
-          <StyledParagraph>
-            React • React Native • Typescript • GraphQL • REST • Azure • Github
-            Actions • Styled Components • Emotion • Material-UI • D3 • Three.js
-            • Web3 • Cypress ...
-          </StyledParagraph>
         </div>
         <StyledParagraph>
-          I am a React & React Native developer with a passion for front-end
-          projects, clean code, functional programming and data visualisations.
-          I have {reactYears} years of React + Typescript experience, more than
-          10 years of experience in web development and a master's degree in
-          mathematics and computer science.
+          I’m a senior frontend/product engineer specialising in React and
+          TypeScript, with a strong focus on design systems, UI architecture,
+          performance, and interaction quality.
         </StyledParagraph>
         <StyledParagraph>
-          I have extensive experience building web applications for both desktop
-          and mobile devices. I worked on projects for companies like{" "}
-          <b>{format.format(COMPANIES)}</b>.
+          I have 10+ years of experience building and scaling web and mobile
+          applications, often owning frontend architecture and long-term UI
+          decisions. I hold a Master’s in Mathematics & Computer Science and
+          bring strong visual instincts from my background as a professional
+          photographer.
+        </StyledParagraph>
+        <StyledParagraph>
+          I've delivered production systems used by millions for organisations
+          including CBA, NSW Spatial Services, Revenue NSW, Big W, and ABC, and
+          I work best in small, high-ownership teams where judgment, quality,
+          and maintainability matter.
         </StyledParagraph>
       </StyledText>
     </StyledBox>

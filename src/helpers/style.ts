@@ -81,6 +81,22 @@ export const StyledH2 = styled.h2`
   font-weight: 400;
   font-size: 55px;
   margin: 12px 0 8px;
+  text-transform: uppercase;
+`;
+export const StyledH3 = styled.h3`
+  font-family: "Roboto Condensed";
+  color: #3a3f5e;
+  font-weight: 400;
+  font-size: 35px;
+  margin: 12px 0 8px;
+  text-transform: uppercase;
+`;
+
+export const StyledSubHeader = styled.h2`
+  opacity: 0.5;
+  font-size: 18px;
+  margin: 0;
+  font-weight: normal;
 `;
 
 export const StyledIcon = styled.img`

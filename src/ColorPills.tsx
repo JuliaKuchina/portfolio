@@ -74,7 +74,7 @@ export function ColorPills() {
       <StyledPill startColor="#16a085" endColor="#afeaa6" angle="20deg">
         {/* <StyledPill startColor="#fa709a" endColor="#fee140" angle="90deg"> */}
         <StyledHeader>INTERESTS</StyledHeader>
-        Maps, 3D, Data-Visualisations
+        Spatial UI · 3D · Visual UI
       </StyledPill>
       <StyledPill startColor="#9e78fb" endColor="#61dafb" angle="60deg">
         <StyledHeader>MASTER OF</StyledHeader>

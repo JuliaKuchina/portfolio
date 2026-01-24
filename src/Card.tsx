@@ -20,6 +20,7 @@ const StyledCard = styled.a`
 `;
 const StyledImage = styled.img`
   width: 100%;
+  border-bottom: 1px solid #eee;
 `;
 const StyledContainer = styled.div`
   padding: 16px 24px 12px;

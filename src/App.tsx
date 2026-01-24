@@ -1,10 +1,15 @@
 import styled from "styled-components";
 import { Welcome } from "./Welcome";
-import { PROJECTS } from "./helpers/projects";
+import { PROJECTS, PROJECTS2 } from "./helpers/projects";
 import { Card } from "./Card";
 import { About } from "./About";
 import { ColorPills } from "./ColorPills";
-import { CONTAINER_WIDTH, StyledH2 } from "./helpers/style";
+import {
+  CONTAINER_WIDTH,
+  StyledH2,
+  StyledH3,
+  StyledSubHeader,
+} from "./helpers/style";
 import { InspiredBy } from "./InspiredBy";
 import { Contacts } from "./Contacts";
 
@@ -22,6 +27,15 @@ const CardFlexContainer = styled.div`
   text-align: left;
 `;
 
+const StyledContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 80px auto 0;
+  text-align: center;
+  max-width: 700px;
+`;
+
 function App() {
   return (
     <div>
@@ -29,9 +43,26 @@ function App() {
       <ColorPills />
       <About />
       <StyledAppContainer>
-        <StyledH2>MY PROJECTS</StyledH2>
+        <StyledH2>Selected Work</StyledH2>
+        <StyledSubHeader>
+          A selection of projects focused on UI systems, interaction, and
+          performance.
+        </StyledSubHeader>
         <CardFlexContainer>
           {PROJECTS.map((project) => (
+            <Card key={project.title} project={project} />
+          ))}
+        </CardFlexContainer>
+        <StyledContainer>
+          <StyledH3>Early Explorations</StyledH3>
+          <StyledSubHeader>
+            A selection of small projects created early in my career to explore
+            UI, interaction, and visual systems.
+          </StyledSubHeader>
+        </StyledContainer>
+
+        <CardFlexContainer>
+          {PROJECTS2.map((project) => (
             <Card key={project.title} project={project} />
           ))}
         </CardFlexContainer>
