@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.e4287235.js",
+    "main.js": "/portfolio/static/js/main.e7de1793.js",
     "static/js/496.1811ca5a.chunk.js": "/portfolio/static/js/496.1811ca5a.chunk.js",
+    "static/media/me.jpeg": "/portfolio/static/media/me.2ec45de10d5856fa0940.jpeg",
     "static/media/pink-something2.png": "/portfolio/static/media/pink-something2.6d9e58d0f533edb94d28.png",
     "static/media/rain2.jpg": "/portfolio/static/media/rain2.28187ad913fe53a993e0.jpg",
     "static/media/Rain.jpeg": "/portfolio/static/media/Rain.0fbf536cce02198044a3.jpeg",
@@ -10,6 +11,7 @@
     "static/media/spooky-house.png": "/portfolio/static/media/spooky-house.f4c5c9a28c37ea31e381.png",
     "static/media/sunrise.jpeg": "/portfolio/static/media/sunrise.434c623d4ffa3f67986e.jpeg",
     "static/media/3d-portal.png": "/portfolio/static/media/3d-portal.6f07e39431617e503685.png",
+    "static/media/firestory.png": "/portfolio/static/media/firestory.dc8a5608ae538a694673.png",
     "static/media/clouds.jpeg": "/portfolio/static/media/clouds.fccc1b061c85500c0fe9.jpeg",
     "static/media/Mist.jpg": "/portfolio/static/media/Mist.ef58cd94b6ad61ce4e88.jpg",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.a4ad83030b535ae34f35.png",
@@ -19,7 +21,9 @@
     "static/media/weatherapp.jpg": "/portfolio/static/media/weatherapp.b988548eeaad0b44fe3e.jpg",
     "static/media/d3-heatmap.jpg": "/portfolio/static/media/d3-heatmap.f2f16a374e92e5e53b91.jpg",
     "static/media/d3-force-directed.jpg": "/portfolio/static/media/d3-force-directed.f932e7f50f5fb957b231.jpg",
+    "static/media/bigw.png": "/portfolio/static/media/bigw.7409f48dfe0c66ca700c.png",
     "static/media/meteorit.jpg": "/portfolio/static/media/meteorit.96ecf7d9a89420ec1dc9.jpg",
+    "static/media/spatial-portal.png": "/portfolio/static/media/spatial-portal.3708566c4912d1d32827.png",
     "static/media/aftertax.png": "/portfolio/static/media/aftertax.67230dab5214f78938c5.png",
     "static/media/OpenWage.jpg": "/portfolio/static/media/OpenWage.1a1fec5c4838c1def052.jpg",
     "static/media/quotemachine.jpg": "/portfolio/static/media/quotemachine.a8c092a13d696492ff3d.jpg",
@@ -29,7 +33,6 @@
     "static/media/d3js-bar-chart.jpg": "/portfolio/static/media/d3js-bar-chart.db61f6941d90318f9235.jpg",
     "static/media/doppler-effect.png": "/portfolio/static/media/doppler-effect.7bdac542ff207e1c4b75.png",
     "static/media/wiki.jpg": "/portfolio/static/media/wiki.3d17bf07b54b3d4a668b.jpg",
-    "static/media/me.jpeg": "/portfolio/static/media/me.5ca361e1318ea670ec73.jpeg",
     "static/media/grey.jpg": "/portfolio/static/media/grey.28ada056a637526bd77e.jpg",
     "static/media/Pomodoro-Clock.jpg": "/portfolio/static/media/Pomodoro-Clock.291816507766a57c1bea.jpg",
     "static/media/twitch.jpg": "/portfolio/static/media/twitch.6f21231ed6916d5cc6f5.jpg",
@@ -44,10 +47,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/download.svg": "/portfolio/static/media/download.0ba04de3182abf02c335.svg",
     "static/media/linkedIn.svg": "/portfolio/static/media/linkedIn.bc5cb583c0f30382b8ce.svg",
-    "main.e4287235.js.map": "/portfolio/static/js/main.e4287235.js.map",
+    "main.e7de1793.js.map": "/portfolio/static/js/main.e7de1793.js.map",
     "496.1811ca5a.chunk.js.map": "/portfolio/static/js/496.1811ca5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e4287235.js"
+    "static/js/main.e7de1793.js"
   ]
 }
