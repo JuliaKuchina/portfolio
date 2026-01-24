@@ -73,7 +73,7 @@ export function Welcome() {
           </StyledParagraph>
         </div>
         <StyledLinkContainer>
-          <StyledLink download href="./YuliaKuchinaFrontendEngineerResume.pdf">
+          <StyledLink download href="./YuliaKuchinaSoftwareEngineerResume.pdf">
             <StyledRainbowSpan>Download resume</StyledRainbowSpan>
           </StyledLink>
         </StyledLinkContainer>
